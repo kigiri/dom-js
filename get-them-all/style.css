@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  height: calc(100% / 3);
+  width: calc(100% / 10);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 200px;
+  min-height: 325px;
+}
+
+.person {
+  min-width: 100px;
+  min-height: 100px;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: solid 1px var(--clear);
+  line-height: 22px;
+  padding: 10px;
+  color: var(--clear);
+}
+
+#BonannoPisano.active {
+  background: white;
+  color: var(--background);
+}
+
+#BonannoPisano.retreated {
+  opacity: 0.15;
+}
+
+.classical.active {
+  background: hsl(0, 0%, 80%);
+  border: none;
+  color: var(--background);
+}
+
+.geologist.active {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6),
+    -6px -6px 10px rgba(255, 255, 255, 0.074);
+  background: var(--background);
+  border: none;
+  color: white;
+}
+
+a {
+  margin-top: 30px;
+  padding: 13px 20px 12px 20px;
+  display: none;
+  background: var(--clear);
+  border-radius: 30px;
+  font-family: monospace;
+}
+
+.plans {
+  margin-top: 30px;
+  display: flex;
+}
+
+img {
+  margin: 0 10px;
+  display: none;
+  background: var(--purple);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  object-fit: scale-down;
+}
+
+.display {
+  display: block;
+}
