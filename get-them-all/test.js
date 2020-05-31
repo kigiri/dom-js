@@ -1,4 +1,4 @@
-import { people } from './data.js'
+import { people } from './assets/data.js'
 import {
   areYou,
   getClassMembers,
@@ -6,7 +6,7 @@ import {
   getGeologists,
   getBonannoPisano,
   getRemainingPeople,
-} from './instructions.js'
+} from './solutions.js'
 
 import {
   create,
@@ -32,7 +32,7 @@ people.map(({ id, className, address, plans }) => {
     imgs.className = 'plans'
     plans.map((plan) => {
       const img = create('img')
-      img.src = './img.svg'
+      img.src = './assets/img.svg'
       imgs.appendChild(img)
     })
     wrapper.appendChild(imgs)
