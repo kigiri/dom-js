@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  padding: 5rem;
+  font-size: 12px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
