@@ -9,6 +9,8 @@ You have this button:
 <div class="button">Pimp my style</div>
 ```
 
+For now, it's only a lonely, basic and sad element ; let's pimp it up!
+
 On each click on the page, a function `pimp` is triggered.
 Write the body of that function so that the button class is altered:
 
