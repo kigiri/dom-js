@@ -2,20 +2,30 @@
 
 ### Instructions
 
-Create a function that will be fired on each click on the page which will alter the class of the button:
+Check the `styles` array in `data.js` at your disposal, and the `index.html`.
+You have this button:
 
-- Add to it, in order and for each click, the next class of the `styles` array
+```html
+<div class="button">Pimp my style</div>
+```
+
+On each click on the page, a function `pimp` is triggered.
+Write the body of that function so that the button class is altered:
+
+- Add in order the next class of the `styles` array
 - When the end of the array is reached, remove backwards each class
 - Toggle the class 'unpimp' when removing classes
 
 ```
-Example:
+Example for a `styles` array with only 3 classes:
 
 Page load --> <div class="button"></div>
 
 ...adding
 Click 1 --> <div class="button one"></div>
 Click 2 --> <div class="button one two"></div>
+
+...toggling `unpimp`
 Click 3 --> <div class="button one two three unpimp"></div>
 
 ...and removing backwards
