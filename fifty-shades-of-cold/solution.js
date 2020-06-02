@@ -27,10 +27,6 @@ export const generateColdShades = () => {
 
   shades.forEach((c) => {
     const shade = document.createElement('div')
-    shade.style.width = `150px`
-    shade.style.height = '150px'
-    shade.style.margin = '20px'
-    shade.style.padding = '5px 8px'
     shade.className = c
     shade.textContent = c
     body.appendChild(shade)
