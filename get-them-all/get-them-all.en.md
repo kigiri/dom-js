@@ -2,60 +2,18 @@
 
 ### Instructions
 
-You've been attributed the task to find Bonanno Pisano before he achieved the design of the Tower of Pisa, avoiding us nowadays all those lame pictures of people pretending to stop it from falling.
+You've been attributed the task to find the main architect of the Tower of Pisa before he achieves his plans, avoiding us nowadays all those lame pictures of people pretending to stop it from falling.
 
-- step 1: You arrived at the architects' chamber to find him, but all you have in front of you is a bunch of unknown faces, and the only information you have is his id name.
+You arrived at the architects' chamber to find him, but all you have in front of you is a bunch of unknown people.\
+If it can help, take a look at the `data.js` file at your disposal.\
+Step by step, with the little information you have, gather information and figure out by elimination who he is.
 
-```js
-const areYou = (id = 'BonannoPisano') => {
-  /* Write a function which returns the HTML element matching the id passed as argument */
-}
-```
+On top of the webpage, each of the four buttons fires a function which has to return an array containing 2 entries: the targetted people, and all the others eliminated.
 
-- step 2: After you found Pisano and he told you he dropped the project, he gave you a hint to find the people who will take it over: the `classical` architects.
+- Write the body of the `getArchitects` function, which targets the architects, all corresponding to a `<a>` tag.
 
-```js
-const getClassMembers = (className = 'classical') => {
-  /* Write a function which returns the HTML elements matching the CSS class name passed as argument */
-  // hint: beware of the type of a HTML collection
-}
-```
+- Write the body of the `getClassicals` function, which targets the architects belonging to the `classical` class.
 
-- step 3: While talking with the classical architects, they advise you to gather all the information they have: the plans of the tower (which are images, <img />) and the positions of some geologists in the room (which are links, <a>).
+- Write the body of the `getActive` function, which targets the classical architects who are `active` in their class.
 
-```js
-const getTagsElements = (tagName = 'img' || 'a') => {
-  /* Write a function which returns the HTML elements matching the tag name passed as argument */
-  // hint: beware of the type of a HTML collection
-}
-```
-
-- step 4: Go and fetch the geologists in the audience to complete your team.
-
-```js
-const getGeologists = (cssQuery = 'body > div.person.geologist') => {
-  /* Write a function which returns the HTML elements matching the query passed as argument */
-  // hint: beware of the type of a HTML collection
-}
-```
-
-- step 5: Now that you identified everyone you need to make that tower stand right,
-  you want the remaining people to leave the room so you can work in peace.
-  Say it personnally to Bonanno Pisano first...
-
-```js
-const getBonannoPisano = (cssQuery = '#BonannoPisano') => {
-  // Write a function which returns the first HTML element matching the CSS query passed as argument
-}
-```
-
-- step 6: ...and now to all the rest of the remaning people.
-
-```js
-const getRemainingPeople = (cssQuery = 'div.person', not = 'active') => {
-  /* Write a function which returns the HTML elements matching the CSS query passed as first argument, but which don't have the CSS class passed as `not` argument */
-  // hint 1: beware of the type of a HTML collection
-  // hint 2: take a look at the `classList` property of a HTML element
-  // hint 3: same as hint 1 for the `classList` property
-}
-```
+- Write the body of the `getBonannoPisano` function, which targets the architect you're looking for, whose `id` is `BonannoPisano`.

@@ -1,25 +1,23 @@
-export const areYou = (id = 'BonannoPisano') => {
-  return document.getElementById(id)
+export const getArchitects = () => {
+  const architects = [...document.getElementsByTagName('a')]
+  const others = [...document.getElementsByTagName('span')]
+  return [architects, others]
 }
 
-export const getClassMembers = (className = 'classical') => {
-  return [...document.getElementsByClassName(className)]
+export const getClassicals = () => {
+  const classicals = [...document.getElementsByClassName('classical')]
+  const others = [...document.querySelectorAll('a:not(.classical)')]
+  return [classicals, others]
 }
 
-export const getTagsElements = (tagName = 'img' || 'a') => {
-  return [...document.getElementsByTagName(tagName)]
+export const getActive = () => {
+  const active = [...document.querySelectorAll('.classical.active')]
+  const others = [...document.querySelectorAll('.classical:not(.active)')]
+  return [active, others]
 }
 
-export const getGeologists = (cssQuery = 'body > div.person.geologist') => {
-  return [...document.querySelectorAll(cssQuery)]
-}
-
-export const getBonannoPisano = (cssQuery = '#BonannoPisano') => {
-  return document.querySelector(cssQuery)
-}
-
-export const getRemainingPeople = (cssQuery = 'div.person', not = 'active') => {
-  return [...document.querySelectorAll(cssQuery)].filter(
-    (q) => ![...q.classList].includes(not),
-  )
+export const getBonannoPisano = () => {
+  const bonanno = document.getElementById('BonannoPisano')
+  const others = [...document.querySelectorAll('a:not(#BonannoPisano)')]
+  return [bonanno, others]
 }
