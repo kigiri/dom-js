@@ -1,10 +1,10 @@
-## Harder, bigger, thicker, stronger
+## Harder, bigger, bolder, stronger
 
 ### Instructions
 
-Being stuck at home, bored, desperate and coming up with a lot of weird ideas, a friend asks you to develop a tool to enhance his ocular skills: one of those Monoyer charts that ophthalmologists use.
+Being stuck at home, bored, desperate and coming up with a lot of weird ideas, a friend asks you to develop a tool to measure his ocular skills: one of those [Monoyer charts](https://en.wikipedia.org/wiki/Monoyer_chart) that ophthalmologists use.
 
-Generate a board where each new letter is harder, bigger, thicker and stronger!
+Generate a board where each new letter is harder, bigger, bolder and stronger!
 
 Create the function `generateLetters` which creates 100 `div`, each containing a letter randomly picked through the alphabet, and whose style properties have to be increased:
 
