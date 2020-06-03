@@ -1,5 +1,3 @@
-import { colors } from './assets/data.js'
-
 const body = document.querySelector('body')
 
 const shapes = [...Array(100).keys()]
