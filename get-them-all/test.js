@@ -3,7 +3,7 @@ import {
   getBonannoPisano,
   getActive,
   getArchitects,
-  getClassicals,
+  getClassical,
 } from './solutions.js'
 
 const body = document.querySelector('body')
@@ -22,7 +22,7 @@ body.appendChild(buttonsContainer)
 
 const buttons = [
   { name: 'Architect', action: getArchitects },
-  { name: 'Classical', action: getClassicals },
+  { name: 'Classical', action: getClassical },
   { name: 'Active', action: getActive },
   { name: 'Bonanno', action: getBonannoPisano },
 ]

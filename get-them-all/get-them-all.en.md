@@ -12,7 +12,7 @@ On top of the webpage, each of the four buttons fires a function which has to re
 
 - Write the body of the `getArchitects` function, which targets the architects, all corresponding to a `<a>` tag.
 
-- Write the body of the `getClassicals` function, which targets the architects belonging to the `classical` class.
+- Write the body of the `getClassical` function, which targets the architects belonging to the `classical` class.
 
 - Write the body of the `getActive` function, which targets the classical architects who are `active` in their class.
 
