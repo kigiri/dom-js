@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.note {
+  width: 100%;
+  flex: 1 1 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
