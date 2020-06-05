@@ -14,7 +14,7 @@ Check the `colors` array in `data.js` at your disposal.
 }
 ```
 
-- Create the function `generateColdShades` which creates a `<div>` for each color of the `colors` array whose name contains `aqua`, `blue`, `turquoise`, `green`, or `purple`.\
+- Create the function `generateColdShades` which creates a `<div>` for each color of the `colors` array whose name contains `aqua`, `blue`, `turquoise`, `green`, `cyan`, `navy` or `purple`.\
   Each `<div>` must have the corresponding generated class and display the name of the color, like following:
 
 ```html

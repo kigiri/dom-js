@@ -14,7 +14,7 @@ export const generateClasses = () => {
 
 const body = document.querySelector('body')
 
-const cold = ['aqua', 'blue', 'turquoise', 'green', 'purple']
+const cold = ['aqua', 'blue', 'turquoise', 'green', 'purple', 'cyan', 'navy']
 
 export const generateColdShades = () => {
   const shades = colors.filter((color) => {
