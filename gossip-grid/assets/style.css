@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 10rem;
+  align-items: flex-start;
+}
+
+.gossip {
+  background: hsl(280, 50%, 50%);
+  margin: 20px;
+  width: 250px;
+  padding: 20px 25px;
+  line-height: 30px;
+  font-size: 20px;
+  word-break: break-word;
+  color: white;
+}
+
+.gossip:first-letter {
+  text-transform: uppercase;
+}
+
+.ranges {
+  position: fixed;
+  top: 5rem;
+  display: flex;
+}
+
+.range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clear);
+  font-family: monospace;
+}
+
+.range label,
+.range span {
+  width: 100px;
+}
+
+.range label {
+  text-align: right;
+}
+
+input {
+  margin: 20px 25px;
+}
