@@ -1,4 +1,4 @@
-import { gossips } from './assets/data.js'
+import { gossips as archived } from './assets/data.js'
 
 const body = document.querySelector('body')
 
@@ -12,15 +12,68 @@ const inputs = [
   { props: ['background'], min: 20, max: 75, value: 60 },
 ]
 
+let gossips = new Proxy(archived, {
+  set: (target, prop, value) => {
+    target[prop] = value
+    createGossip(value, true)
+    return true
+  },
+})
+
 export const grid = () => {
   inputs.forEach((input) => createInput(input))
+  createAddGossip()
+  gossips.forEach((g) => createGossip(g))
+}
 
-  gossips.forEach((g) => {
-    const gossip = document.createElement('div')
-    gossip.textContent = g
-    gossip.className = 'gossip'
+const createGossip = (g, isNew = false) => {
+  const gossip = document.createElement('div')
+  const addGossip = document.getElementById('add-gossip')
+  const { fontSize, lineHeight, width, background } = addGossip.style
+  gossip.className = 'gossip'
+  gossip.textContent = g
+  if (isNew) {
+    gossip.style.fontSize = fontSize
+    gossip.style.lineHeight = lineHeight
+    gossip.style.width = width
+    gossip.style.background = background
+    gossip.classList.add('fade-in')
+    body.insertBefore(gossip, addGossip.nextElementSibling)
+  } else {
     body.appendChild(gossip)
-  })
+  }
+}
+
+const createAddGossip = () => {
+  const addGossip = document.createElement('div')
+  addGossip.className = 'gossip'
+  addGossip.id = 'add-gossip'
+
+  const newInput = document.createElement('textarea')
+  newInput.autofocus = true
+  newInput.placeholder = 'Got a gossip to share ?'
+  newInput.addEventListener('keyup', (e) => addNewGossip(newInput, e))
+
+  const button = document.createElement('div')
+  button.className = 'button'
+  button.textContent = 'Share gossip!'
+  button.addEventListener('click', (e) => addNewGossip(newInput))
+
+  addGossip.appendChild(newInput)
+  addGossip.appendChild(button)
+  body.appendChild(addGossip)
+}
+
+const addNewGossip = (input, event) => {
+  const noValue = !input.value
+  const notEnterKey = event && event.keyCode !== 13
+  if (notEnterKey || noValue) {
+    input.focus()
+    return
+  }
+  gossips[gossips.length] = input.value
+  input.value = ''
+  input.focus()
 }
 
 const createInput = ({ props, min, max, value }) => {

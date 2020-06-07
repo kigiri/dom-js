@@ -17,6 +17,9 @@ body {
   font-size: 20px;
   word-break: break-word;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .gossip:first-letter {
@@ -48,4 +51,47 @@ body {
 
 input {
   margin: 20px 25px;
+}
+
+textarea {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button {
+  margin-top: 20px;
+  text-align: right;
+  border: solid 1px white;
+  align-self: flex-end;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.fade-in {
+  animation: fade-in 0.75s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
