@@ -29,7 +29,7 @@ export const build = (amount = 54) => {
     }
 
     count++
-  }, 10)
+  }, 100)
 }
 
 export const repair = (...ids) => {
