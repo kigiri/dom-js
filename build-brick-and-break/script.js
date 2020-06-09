@@ -1,4 +1,4 @@
-import { build, repair, destroy } from './solutions.js'
+import { build, repair, destroy } from './solution.js'
 
 build()
 

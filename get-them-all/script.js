@@ -4,7 +4,7 @@ import {
   getActive,
   getArchitects,
   getClassical,
-} from './solutions.js'
+} from './solution.js'
 
 const body = document.querySelector('body')
 
