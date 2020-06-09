@@ -23,3 +23,7 @@ Check the `colors` array in `data.js` at your disposal.
 
 - The function `choseShade` is triggered when clicking on a `div`.\
   Write the body of this function, which receives the shade of the clicked element as argument, and replaces all the other elements class by the chosen shade.
+
+### Expected result
+
+You can see an example of the expected result [here](https://youtu.be/a-3JDEvW-Qg)

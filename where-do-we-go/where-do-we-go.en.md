@@ -11,3 +11,7 @@ Create a page which displays the list of `places` provided in `data.js` file:
 - display a location indicator, displaying the `name` and the `coordinates` of the current place featured in the image, using the corresponding `color` as text color, which updates on scroll when another image is reached
 - display a compass indicating the latitude direction ; North if the user is scrolling up, South if he's scrolling down
 - when clicking on the page, open a link redirecting to the Google Maps' coordinates of the place currently displayed.
+
+### Expected result
+
+You can see an example of the expected result [here](https://youtu.be/BLxNi1WH6_0)

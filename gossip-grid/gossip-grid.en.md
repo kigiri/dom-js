@@ -8,3 +8,7 @@ Create the function `grid` which displays all the `gossips` provided in the `dat
 
 - add a new gossip to the list
 - customize the width, font size and background of each card with `range` inputs.
+
+### Expected result
+
+You can see an example of the expected result [here](https://youtu.be/nbR2eHBqTxU)

@@ -12,3 +12,7 @@ Create the function `compose`:
 - If the pressed key is the `Escape` one, clear all the notes
 
 - NB: If you want to use the CSS pre-styled classes, give your `note` the class `note`.
+
+### Expected result
+
+You can see an example of the expected result [here](https://youtu.be/5DdijwBnpAk)

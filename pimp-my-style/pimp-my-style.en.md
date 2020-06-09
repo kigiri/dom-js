@@ -35,3 +35,7 @@ Click 4 --> <div class="button one two unpimp"></div>
 Click 5 --> <div class="button one unpimp"></div>
 Click 6 --> <div class="button"></div>
 ```
+
+### Expected result
+
+You can see an example of the expected result [here](https://youtu.be/VIRf3TBDTN4)

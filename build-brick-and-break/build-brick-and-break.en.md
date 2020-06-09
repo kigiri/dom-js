@@ -24,3 +24,7 @@ Each one of the two emojis in the top-right corner fires a function on click:
 Write the body of the `repair` function, which receives any number of `ids`, and for each `id`, retrieves the HTML element and set a custom attribute `repaired` set to `in progress` if it is a brick situated in the middle column, and `true` if not.
 
 Write the body of the `destroy` function, which removes the current last brick in the tower.
+
+### Expected result
+
+You can see an example of the expected result [here](https://youtu.be/OjSP_7u9CZ4)
