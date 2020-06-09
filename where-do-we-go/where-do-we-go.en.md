@@ -1,8 +1,8 @@
-## Where do we go ?
+## Where do we go?
 
 ### Instructions
 
-Tired of staying home for too long, you decide to develop a page to index ideas for your next travel destinations, so that next time you'll ask yourself 'Where do we go ?', you won't need to get lost for 3 hours!
+Tired of staying home for too long, you decide to develop a page to index ideas for your next travel destinations, so that next time you'll ask yourself 'Where do we go?', you won't need to get lost for 3 hours!
 
 Create a page which displays the list of `places` provided in `data.js` file:
 
