@@ -2,8 +2,7 @@
 
 ### Instructions
 
-Check the `styles` array in `data.js` at your disposal, and the `index.html`.
-You have this button:
+Check out that button on the HTML page:
 
 ```html
 <div class="button">Pimp my style</div>
@@ -12,7 +11,7 @@ You have this button:
 For now, it's only a lonely, basic and sad element ; let's pimp it up!
 
 On each click on the page, a function `pimp` is triggered.
-Write the body of that function so that the button class is altered:
+Write the body of that function so that the button's class is altered:
 
 - Add in order the next class of the `styles` array
 - When the end of the array is reached, remove backwards each class
@@ -35,6 +34,11 @@ Click 4 --> <div class="button one two unpimp"></div>
 Click 5 --> <div class="button one unpimp"></div>
 Click 6 --> <div class="button"></div>
 ```
+
+### Provided files
+
+- Use this CSS file: [https://mariemalarme.github.io/dom-js/assets/style/pimp-my-style.css](https://mariemalarme.github.io/dom-js/assets/style/pimp-my-style.css)
+- Import the `styles` from the data file: [https://mariemalarme.github.io/dom-js/assets/data/pimp-my-style.js](https://mariemalarme.github.io/dom-js/assets/data/pimp-my-style.js)
 
 ### Expected result
 

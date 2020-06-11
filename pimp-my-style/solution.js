@@ -1,4 +1,4 @@
-import { styles } from './assets/data.js'
+import { styles } from 'https://mariemalarme.github.io/dom-js/assets/data/pimp-my-style.js'
 
 let count = 0
 let increment = 1
