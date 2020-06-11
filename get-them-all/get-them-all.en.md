@@ -5,7 +5,6 @@
 You've been attributed the task to find the main architect of the Tower of Pisa before he achieves his plans, avoiding us nowadays all those lame pictures of people pretending to stop it from falling.
 
 You arrived at the architects' chamber to find him, but all you have in front of you is a bunch of unknown people.\
-If it can help, take a look at the `data.js` file at your disposal.\
 Step by step, with the little information you have, gather information and figure out by elimination who he is.
 
 On top of the webpage, each of the four buttons fires a function which has to return an array containing 2 entries: the targetted people, and all the others eliminated.
@@ -17,3 +16,8 @@ On top of the webpage, each of the four buttons fires a function which has to re
 - Write the body of the `getActive` function, which targets the classical architects who are `active` in their class.
 
 - Write the body of the `getBonannoPisano` function, which targets the architect you're looking for, whose `id` is `BonannoPisano`.
+
+### Provided files
+
+- Use this CSS file: [https://mariemalarme.github.io/dom-js/assets/style/get-them-all.css](https://mariemalarme.github.io/dom-js/assets/style/get-them-all.css)
+- You can take a look at the data: [https://mariemalarme.github.io/dom-js/assets/data/get-them-all.js](https://mariemalarme.github.io/dom-js/assets/data/get-them-all.js)

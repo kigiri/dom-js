@@ -1,14 +1,26 @@
-import { people } from './assets/data.js'
+import { people } from 'https://mariemalarme.github.io/dom-js/assets/data/get-them-all.js'
 import {
   getBonannoPisano,
   getActive,
   getArchitects,
   getClassical,
 } from './solution.js'
+// copy-pasted code of the student instead of the import
 
 const body = document.querySelector('body')
 
-people.map(({ id, classe, address, plans, tag, active }) => {
+const shuffle = (array) => {
+  const test = array.length - 1
+  for (let i = test; i > 0; i--) {
+    const j = Math.floor(Math.random() * i)
+    const temp = array[i]
+    array[i] = array[j]
+    array[j] = temp
+  }
+  return array
+}
+
+shuffle(people).map(({ id, classe, address, plans, tag, active }) => {
   const people = document.createElement(tag)
   people.id = id
   people.textContent = 'Someone'
