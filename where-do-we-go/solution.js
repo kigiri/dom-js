@@ -1,4 +1,4 @@
-import { places } from './assets/data.js'
+import { places } from 'https://mariemalarme.github.io/dom-js/assets/data/where-do-we-go.js'
 
 const body = document.querySelector('body')
 
