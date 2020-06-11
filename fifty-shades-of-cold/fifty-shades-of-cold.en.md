@@ -4,9 +4,9 @@
 
 You've been asked to freshen a webpage atmosphere by displaying shades of cold colors.
 
-Check the `colors` array in `data.js` at your disposal.
+Check the `colors` array at your disposal [here](https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js).
 
-- Create the function `generateClasses` which creates a `<style>` tag in the `<head>` tag and generates, for each color of `colors`, a class setting the `background` attribute and taking the color as value, like following:
+- Create a `<style>` tag in the `<head>` tag and generate, for each color of `colors`, a class setting the `background` attribute and taking the color as value, like following:
 
 ```css
 .indianred {
@@ -14,7 +14,7 @@ Check the `colors` array in `data.js` at your disposal.
 }
 ```
 
-- Create the function `generateColdShades` which creates a `<div>` for each color of the `colors` array whose name contains `aqua`, `blue`, `turquoise`, `green`, `cyan`, `navy` or `purple`.\
+- Create a `<div>` for each color of the `colors` array whose name contains `aqua`, `blue`, `turquoise`, `green`, `cyan`, `navy` or `purple`.\
   Each `<div>` must have the corresponding generated class and display the name of the color, like following:
 
 ```html
