@@ -1,4 +1,4 @@
-import { gossips as archived } from './assets/data.js'
+import { gossips as archived } from 'https://mariemalarme.github.io/dom-js/assets/data/gossip-grid.js'
 
 const body = document.querySelector('body')
 
