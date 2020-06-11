@@ -1,4 +1,4 @@
-import { colors } from './assets/data.js'
+import { colors } from 'https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js'
 
 export const generateClasses = () => {
   document.head.appendChild(
@@ -41,3 +41,6 @@ export const choseShade = (shade) => {
     }
   })
 }
+
+generateClasses()
+generateColdShades()
