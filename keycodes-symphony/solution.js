@@ -1,8 +1,11 @@
 const body = document.querySelector('body')
 
 export const compose = () => {
-  document.addEventListener('keydown', handleKey)
-  setTimeout(() => document.removeEventListener('keydown', handleKey), 500)
+  document.addEventListener('keydown', (e) => handleKey(e))
+  setTimeout(
+    () => document.removeEventListener('keydown', (e) => handleKey(e)),
+    500,
+  )
 }
 
 const handleKey = (e) => {
