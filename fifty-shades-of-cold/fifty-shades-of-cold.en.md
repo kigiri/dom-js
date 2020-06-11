@@ -4,7 +4,7 @@
 
 You've been asked to freshen a webpage atmosphere by displaying shades of cold colors.
 
-Check the `colors` array provided in the data file.
+Check the `colors` array provided in the data file below.
 
 - Create a `<style>` tag in the `<head>` tag and generate, for each color of `colors`, a class setting the `background` attribute and taking the color as value, like following:
 

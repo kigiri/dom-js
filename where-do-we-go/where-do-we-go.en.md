@@ -4,7 +4,7 @@
 
 Tired of staying home for too long, you decide to develop a page to index ideas for your next travel destinations, so that next time you'll ask yourself 'Where do we go?', you won't need to get lost for 3 hours!
 
-Create a page which displays the list of `places` provided in the data file:
+Create a page which displays the list of `places` provided in the data file below:
 
 - sort the `places` from the Northest to the Southest
 - display a fullscreen-size image for each place ; use the images hosted here: `https://github.com/MarieMalarme/dom-js/tree/master/assets/images`, also available as Github Pages here `https://mariemalarme.github.io/dom-js/assets/images/locationName.jpg`

@@ -5,7 +5,7 @@
 Check out that button on the HTML page:
 
 ```html
-<div class="button">Pimp my style</div>
+<div class="button">pimp my style</div>
 ```
 
 For now, it's only a lonely, basic and sad element ; let's pimp it up!
@@ -13,7 +13,7 @@ For now, it's only a lonely, basic and sad element ; let's pimp it up!
 On each click on the page, a function `pimp` is triggered.
 Write the body of that function so that the button's class is altered:
 
-- Add in order the next class of the `styles` array
+- Add in order the next class of the `styles` array provided in the data file below
 - When the end of the array is reached, remove backwards each class
 - Toggle the class 'unpimp' when removing classes
 
