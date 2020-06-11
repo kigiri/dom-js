@@ -4,7 +4,7 @@
 
 You've been asked to freshen a webpage atmosphere by displaying shades of cold colors.
 
-Check the `colors` array at your disposal [here](https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js).
+Check the `colors` array provided in the data file.
 
 - Create a `<style>` tag in the `<head>` tag and generate, for each color of `colors`, a class setting the `background` attribute and taking the color as value, like following:
 
@@ -23,6 +23,10 @@ Check the `colors` array at your disposal [here](https://mariemalarme.github.io/
 
 - The function `choseShade` is triggered when clicking on a `div`.\
   Write the body of this function, which receives the shade of the clicked element as argument, and replaces all the other elements class by the chosen shade.
+
+### Provided files
+
+- Import the `colors` from the data file: [https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js](https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js)
 
 ### Expected result
 
