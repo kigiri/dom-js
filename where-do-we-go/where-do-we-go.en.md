@@ -15,7 +15,7 @@ Create a page which displays the list of `places` provided in the data file belo
 ### Notions
 
 - [Wheel event](https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event): [`deltaY`](https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent/deltaY)
-- [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window): [`innerheight`](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight), [`scrollY`](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY), [`open`](https://developer.mozilla.org/en-US/docs/Web/API/Window/open)
+- [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window): [`innerheight`](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight), [`scrollY`](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY), [`open()`](https://developer.mozilla.org/en-US/docs/Web/API/Window/open)
 
 ### Provided files
 
