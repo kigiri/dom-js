@@ -24,6 +24,12 @@ Check the `colors` array provided in the data file below.
 - The function `choseShade` is triggered when clicking on a `div`.\
   Write the body of this function, which receives the shade of the clicked element as argument, and replaces all the other elements class by the chosen shade.
 
+### Notions
+
+- [`head`](https://developer.mozilla.org/en-US/docs/Web/API/Document/head) / [style tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
+- [`className`](https://developer.mozilla.org/en-US/docs/Web/API/Element/className)
+- [`classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList): `contains()`, `replace()`
+
 ### Provided files
 
 - Import the `colors` from the data file: [https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js](https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js)

@@ -24,6 +24,16 @@ Write the body of the `repair` function, which receives any number of `ids`, and
 
 Write the body of the `destroy` function, which removes the current last brick in the tower.
 
+### Notions
+
+- [`createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+- [`appendChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+- [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+- [`setInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) / [`clearInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
+- [`hasAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)
+- [dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/dataset)
+- [`remove()`](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+
 ### Provided files
 
 - Use this CSS file: [https://mariemalarme.github.io/dom-js/assets/style/get-them-all.css](https://mariemalarme.github.io/dom-js/assets/style/build-brick-and-break.css)

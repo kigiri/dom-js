@@ -11,6 +11,10 @@ Create the function `compose`:
 - If the pressed key is the `Delete` one, delete the last note
 - If the pressed key is the `Escape` one, clear all the notes
 
+### Notions
+
+- [Keyboard event](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent): [`keydown`](https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event), [`key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)
+
 ### Expected result
 
 You can see an example of the expected result [here](https://youtu.be/5DdijwBnpAk)

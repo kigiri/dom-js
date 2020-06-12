@@ -35,6 +35,10 @@ Click 5 --> <div class="button one unpimp"></div>
 Click 6 --> <div class="button"></div>
 ```
 
+### Notions
+
+- [`classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList): `add()`, `remove()`, `toggle()`
+
 ### Provided files
 
 - Use this CSS file: [https://mariemalarme.github.io/dom-js/assets/style/pimp-my-style.css](https://mariemalarme.github.io/dom-js/assets/style/pimp-my-style.css)

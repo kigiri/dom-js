@@ -17,6 +17,13 @@ On top of the webpage, each of the four buttons fires a function which has to re
 
 - Write the body of the `getBonannoPisano` function, which targets the architect you're looking for, whose `id` is `BonannoPisano`.
 
+### Notions
+
+- [`getElementsByTagName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName)
+- [`getElementsByClassName()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)
+- [`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+- [`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) / [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+
 ### Provided files
 
 - Use this CSS file: [https://mariemalarme.github.io/dom-js/assets/style/get-them-all.css](https://mariemalarme.github.io/dom-js/assets/style/get-them-all.css)

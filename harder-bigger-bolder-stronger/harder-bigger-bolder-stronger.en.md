@@ -10,3 +10,8 @@ Create the function `generateLetters` which creates 100 `div`, each containing a
 
 - `font-size` has to grow from `20` to at least `100` pixels
 - `font-weigth` has to be `300` for the first third of the letters, `400` for the second third, and `600` for the last third
+
+### Notions
+
+- [`style`](https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style)
+- [`textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)

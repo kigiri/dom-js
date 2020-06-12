@@ -10,6 +10,13 @@ Develop a trap to capture the elements when the mouse is getting too close to th
 
 - Set a frame in the center of the page ; when a circle is inside that frame, it has to be purple ; once a circle enters the frame, it is trapped inside and cannot go out of it anymore.
 
+### Notions
+
+- [`addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener): `click`, `mousemove`
+- [`removeEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener)
+- [Mouse event](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/MouseEvent): [`click`](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event), [`mousemove`](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event) / [`clientX`](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/clientX), [`clientY`](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/clientY)
+- [`getBoundingClientRect()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+
 ### Expected result
 
 You can see an example of the expected result [here](https://youtu.be/qF843P-V2Yw)

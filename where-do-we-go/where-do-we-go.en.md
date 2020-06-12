@@ -12,6 +12,11 @@ Create a page which displays the list of `places` provided in the data file belo
 - display a compass indicating the latitude direction ; North if the user is scrolling up, South if he's scrolling down
 - when clicking on the page, open a link redirecting to the Google Maps' coordinates of the place currently displayed.
 
+### Notions
+
+- [Wheel event](https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event): [`deltaY`](https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent/deltaY)
+- [`window`](https://developer.mozilla.org/en-US/docs/Web/API/Window): [`innerheight`](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight), [`scrollY`](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY), [`open`](https://developer.mozilla.org/en-US/docs/Web/API/Window/open)
+
 ### Provided files
 
 - Import the `places` from the data file: [https://mariemalarme.github.io/dom-js/assets/data/where-do-we-go.js](https://mariemalarme.github.io/dom-js/assets/data/where-do-we-go.js)

@@ -9,6 +9,10 @@ Create the function `grid` which displays all the `gossips`, provided in the dat
 - add a new gossip to the list
 - customize the width, font size and background of each card with `range` inputs.
 
+### Notions
+
+- [Inputs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input): [`text`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text), [`range`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
+
 ### Provided files
 
 - Import the `gossips` from the data file: [https://mariemalarme.github.io/dom-js/assets/data/gossip-grid.js](https://mariemalarme.github.io/dom-js/assets/data/gossip-grid.js)

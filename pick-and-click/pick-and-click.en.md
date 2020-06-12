@@ -12,6 +12,12 @@ Write the function `pick` which creates a `hsl` color picker varying the `hue` a
 - copies that value in the clipboard on click
 - displays two lines, for X and Y axis, following the cursor
 
+### Notions
+
+- [Copy event](https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event)
+- [Mouse move event](https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event)
+- [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg): [`createElementNS`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElementNS), [`setAttribute`](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+
 ### Expected result
 
 You can see an example of the expected result [here](https://youtu.be/eE4eE9_eKZI)
