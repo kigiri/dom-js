@@ -5,12 +5,6 @@ const create = (tag) => {
   return element
 }
 
-const append = (container, ...elements) => {
-  elements.forEach((e) =>
-    container.append(e.tagName ? e : document.createTextNode(String(e))),
-  )
-}
-
 export const build = (amount = 54) => {
   let count = 1
   const intervalID = setInterval(() => {
@@ -20,8 +14,8 @@ export const build = (amount = 54) => {
     if (count % 3 === 2) {
       brick.dataset.foundation = true
     }
-    append(brick, count)
-    append(body, brick)
+    brick.append(count)
+    body.append(brick)
 
     if (count === amount) {
       window.clearInterval(intervalID)

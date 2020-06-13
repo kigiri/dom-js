@@ -11,12 +11,12 @@ body.append(tools)
 const dynamite = document.createElement('div')
 dynamite.textContent = '🧨'
 dynamite.addEventListener('click', destroy)
-tools.append(dynamite)
 
 const hammer = document.createElement('div')
 hammer.textContent = '🔨'
 hammer.addEventListener('click', () => repair('brick-26', ...reparations))
-tools.append(hammer)
+
+tools.append(dynamite, hammer)
 
 const random = (min, max) => {
   min = Math.ceil(min)

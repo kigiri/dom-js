@@ -59,8 +59,7 @@ const createAddGossip = () => {
   button.textContent = 'Share gossip!'
   button.addEventListener('click', (e) => addNewGossip(newInput))
 
-  addGossip.append(newInput)
-  addGossip.append(button)
+  addGossip.append(newInput, button)
   body.append(addGossip)
 }
 
@@ -93,10 +92,7 @@ const createInput = ({ props, min, max, value }) => {
   const valueLabel = document.createElement('span')
   valueLabel.textContent = value
 
-  range.append(propLabel)
-  range.append(input)
-  range.append(valueLabel)
-
+  range.append(propLabel, input, valueLabel)
   ranges.append(range)
 }
 

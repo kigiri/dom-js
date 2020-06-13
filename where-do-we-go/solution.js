@@ -8,11 +8,11 @@ export const scroll = () => {
   const location = document.createElement('div')
   location.className = 'location'
   setLocation(location)
-  body.append(location)
 
   const direction = document.createElement('div')
   direction.className = 'direction'
-  body.append(direction)
+
+  body.append(location, direction)
 
   document.addEventListener('wheel', (event) =>
     setLocation(location, direction, event),
