@@ -27,7 +27,7 @@ Write the body of the `destroy` function, which removes the current last brick i
 ### Notions
 
 - [`createElement()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
-- [`appendChild()`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+- [`append()`](https://developer.mozilla.org/fr/docs/Web/API/ParentNode/append)
 - [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [`setInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) / [`clearInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 - [`hasAttribute()`](https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute)

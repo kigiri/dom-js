@@ -8,11 +8,11 @@ export const scroll = () => {
   const location = document.createElement('div')
   location.className = 'location'
   setLocation(location)
-  body.appendChild(location)
+  body.append(location)
 
   const direction = document.createElement('div')
   direction.className = 'direction'
-  body.appendChild(direction)
+  body.append(direction)
 
   document.addEventListener('wheel', (event) =>
     setLocation(location, direction, event),
@@ -40,7 +40,7 @@ const createSections = () => {
 
     const section = document.createElement('section')
     section.style.background = `center / cover url(${url})`
-    body.appendChild(section)
+    body.append(section)
   })
 }
 

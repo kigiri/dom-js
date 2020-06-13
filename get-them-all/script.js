@@ -25,12 +25,12 @@ shuffle(people).map(({ id, classe, address, plans, tag, active }) => {
   people.id = id
   people.textContent = 'Someone'
   people.className = `${classe} ${active ? 'active' : ''}`
-  body.appendChild(people)
+  body.append(people)
 })
 
 const buttonsContainer = document.createElement('div')
 buttonsContainer.id = 'buttons'
-body.appendChild(buttonsContainer)
+body.append(buttonsContainer)
 
 const buttons = [
   { name: 'Architect', action: getArchitects },
@@ -72,5 +72,5 @@ buttons.forEach(({ name, action }, i) => {
     next.classList.remove('disabled')
   })
 
-  buttonsContainer.appendChild(btn)
+  buttonsContainer.append(btn)
 })

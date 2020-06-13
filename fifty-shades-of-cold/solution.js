@@ -1,7 +1,7 @@
 import { colors } from 'https://mariemalarme.github.io/dom-js/assets/data/fifty-shades-of-cold.js'
 
 export const generateClasses = () => {
-  document.head.appendChild(
+  document.head.append(
     Object.assign(document.createElement('style'), {
       type: 'text/css',
       id: 'colors',
@@ -29,7 +29,7 @@ export const generateColdShades = () => {
     const shade = document.createElement('div')
     shade.className = c
     shade.textContent = c
-    body.appendChild(shade)
+    body.append(shade)
   })
 }
 

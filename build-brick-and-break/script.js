@@ -6,17 +6,17 @@ const body = document.querySelector('body')
 
 const tools = document.createElement('div')
 tools.id = 'tools'
-body.appendChild(tools)
+body.append(tools)
 
 const dynamite = document.createElement('div')
 dynamite.textContent = '🧨'
 dynamite.addEventListener('click', destroy)
-tools.appendChild(dynamite)
+tools.append(dynamite)
 
 const hammer = document.createElement('div')
 hammer.textContent = '🔨'
 hammer.addEventListener('click', () => repair('brick-26', ...reparations))
-tools.appendChild(hammer)
+tools.append(hammer)
 
 const random = (min, max) => {
   min = Math.ceil(min)

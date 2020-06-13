@@ -7,7 +7,7 @@ const create = (tag) => {
 
 const append = (container, ...elements) => {
   elements.forEach((e) =>
-    container.appendChild(e.tagName ? e : document.createTextNode(String(e))),
+    container.append(e.tagName ? e : document.createTextNode(String(e))),
   )
 }
 

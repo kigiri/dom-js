@@ -20,6 +20,6 @@ export const generateLetters = () => {
     shape.textContent = alphabet[random(0, alphabet.length - 1)]
     shape.style.fontSize = `${c + 10 * 2}px`
     shape.style.fontWeight = (firstThird && 300) || (secondThird && 400) || 600
-    body.appendChild(shape)
+    body.append(shape)
   })
 }

@@ -33,5 +33,5 @@ const createNote = ({ key }) => {
   note.className = 'note'
   note.textContent = key
   note.style.background = `hsl(270, ${number}%, ${number}%)`
-  body.appendChild(note)
+  body.append(note)
 }

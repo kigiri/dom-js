@@ -3,26 +3,26 @@ const body = document.querySelector('body')
 const count = document.createElement('div')
 count.className = 'count'
 count.textContent = 'hsl(0, 50%, 0%)'
-body.appendChild(count)
+body.append(count)
 
 const hueText = document.createElement('div')
 hueText.className = 'text hue'
 hueText.textContent = 'hue'
-body.appendChild(hueText)
+body.append(hueText)
 
 const luminosityText = document.createElement('div')
 luminosityText.className = 'text luminosity'
 luminosityText.textContent = 'luminosity'
-body.appendChild(luminosityText)
+body.append(luminosityText)
 
 const origin = document.createElement('div')
 origin.className = 'text origin'
-body.appendChild(origin)
+body.append(origin)
 
 const picked = document.createElement('div')
 picked.className = 'text picked'
 picked.textContent = 'Color successfully picked!'
-body.appendChild(picked)
+body.append(picked)
 
 const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
 svg.setAttributeNS(
@@ -37,14 +37,14 @@ svg.setAttribute('viewBox', `0 0 ${window.innerWidth} ${window.innerHeight}`)
 const axisX = document.createElementNS('http://www.w3.org/2000/svg', 'line')
 axisX.setAttribute('y1', window.innerHeight)
 axisX.setAttribute('y2', 0)
-svg.appendChild(axisX)
+svg.append(axisX)
 
 const axisY = document.createElementNS('http://www.w3.org/2000/svg', 'line')
 axisY.setAttribute('x1', window.innerWidth)
 axisY.setAttribute('x2', 0)
-svg.appendChild(axisY)
+svg.append(axisY)
 
-body.appendChild(svg)
+body.append(svg)
 
 export const pick = () => {
   document.addEventListener('mousemove', (e) => set(e))
@@ -66,7 +66,7 @@ const click = (e) => {
   wave.className = 'wave'
   wave.style.top = `${e.clientY - 10}px`
   wave.style.left = `${e.clientX - 10}px`
-  body.appendChild(wave)
+  body.append(wave)
   setTimeout(() => wave.remove(), 150)
 }
 

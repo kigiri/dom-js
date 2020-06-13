@@ -4,7 +4,7 @@ const body = document.querySelector('body')
 
 const ranges = document.createElement('div')
 ranges.className = 'ranges'
-body.appendChild(ranges)
+body.append(ranges)
 
 const inputs = [
   { props: ['width'], min: 200, max: 800, value: 250 },
@@ -40,7 +40,7 @@ const createGossip = (g, isNew = false) => {
     gossip.classList.add('fade-in')
     body.insertBefore(gossip, addGossip.nextElementSibling)
   } else {
-    body.appendChild(gossip)
+    body.append(gossip)
   }
 }
 
@@ -59,9 +59,9 @@ const createAddGossip = () => {
   button.textContent = 'Share gossip!'
   button.addEventListener('click', (e) => addNewGossip(newInput))
 
-  addGossip.appendChild(newInput)
-  addGossip.appendChild(button)
-  body.appendChild(addGossip)
+  addGossip.append(newInput)
+  addGossip.append(button)
+  body.append(addGossip)
 }
 
 const addNewGossip = (input, event) => {
@@ -93,11 +93,11 @@ const createInput = ({ props, min, max, value }) => {
   const valueLabel = document.createElement('span')
   valueLabel.textContent = value
 
-  range.appendChild(propLabel)
-  range.appendChild(input)
-  range.appendChild(valueLabel)
+  range.append(propLabel)
+  range.append(input)
+  range.append(valueLabel)
 
-  ranges.appendChild(range)
+  ranges.append(range)
 }
 
 const customize = ({ target }, ...props) => {

@@ -2,7 +2,7 @@ const body = document.querySelector('body')
 
 const frame = document.createElement('div')
 frame.className = 'frame'
-body.appendChild(frame)
+body.append(frame)
 
 const frameDim = frame.getBoundingClientRect()
 const { top, bottom, left, right } = frameDim
@@ -23,7 +23,7 @@ export const createCircle = () => {
 const create = ({ clientX, clientY }) => {
   const elem = document.createElement('div')
   elem.className = 'elem'
-  body.appendChild(elem)
+  body.append(elem)
   elem.style.top = `${clientY - radius}px`
   elem.style.left = `${clientX - radius}px`
   const hasEntered = insideX(clientX) && insideY(clientY)
