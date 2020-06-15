@@ -8,7 +8,7 @@ Develop a trap to capture the elements when the mouse is getting too close to th
 
 - Create a function `moveCircle`: make it fire when the mouse moves, and get the last circle created and makes it move along with the mouse
 
-- Set a frame in the center of the page ; when a circle is inside that frame, it has to be purple ; once a circle enters the frame, it is trapped inside and cannot go out of it anymore.
+- Set a box in the center of the page ; when a circle is inside that box, it has to be purple ; once a circle enters the box, it is trapped inside and cannot go out of it anymore.
 
 ### Notions
 
